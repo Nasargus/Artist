@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap');
+
+*{
+    font-family: 'Turret Road', sans-serif;
+}
+.logo{
+  width: 100px;
+}
+.bd-example{
+      
+            width: 1000px; /* Largeur souhaitée */
+            height: auto; /* Maintenir les proportions de l'image */
+            margin: 0 auto; /* Centre l'élément horizontalement */
+            padding-top: 20px;
+        
+        }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  
+}
+body {
+  /* background-image: url(Asset/ciel.jpg);
+  background-size:cover; */
+ 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;  
+    background-image: url('Asset/ciel.jpg');
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;  
+  }
+  h2{
+    text-align: center;
+  }
+  
+  p {
+    margin: 1em 0;
+    text-align: center;  
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 1em 2em;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    border-radius: 5px;
+  }
+  
+  .presentation {
+    background-color: #d1faf7;
+    text-align: center;  
+  }
+  
+  .services {
+    background-color: #d1faf7;
+  }
+  
+  .contact {
+    background-color: #d1faf7;
+  }
+  
+  footer {
+    background-color: #d1faf7;
+    padding: 1em 2em;
+  }
+  @media screen and (max-width: 400px){
+
+    .bd-example{
+      
+      width: 500px; /* Largeur souhaitée */
+      height: auto; /* Maintenir les proportions de l'image */
+      margin: 0 auto; /* Centre l'élément horizontalement */
+      padding-top: 20px;
+  
+  }
+
+  }
